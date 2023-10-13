@@ -1,0 +1,11 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+
+
+# Binary files
+# ============
+*.db     binary
+*.p      binary
+*.pkl    binary
+
+# Jupyter notebook
+*.ipynb  text eol=lf
