@@ -1,10 +1,50 @@
-# Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <H2># Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT</H2>
+ 
+</head>
+<body>
+<h4>Purpose and Objective:</h4>
+  <p>This is informative as well as assistive to diabetic / non-diabetic patients to detect whether they have retinopathy problems or not. This will open up a window to diagnose or start treatment.</p>
+<h5>Table of Contents:</h5>
+  <li>Dataset obtaining</li>
+  <li>Data Preprocess</li>
+  <li>Load images</li>
+  <li>Resize Images</li>
+  <li>Check Class Imbalance</li>
+  <li>Model Architecture</li>
+  <li>Web Deployment</li>
+  <li>Limitation</li>  
 
-Purpose and Objective:
-This is informative as well as assistive to diabetic / non-diabetic patients to detect whether they have retinopathy problems or not.  This will open up a window to diagnose or start treatment.
+<h4>Datasets:</h4>
+  <li>For Image Classification : From Kaggle.com </li>
+  <li>For Web Scrapping : MedicineNet</li>
 
-Table of Contents:
+<h4>Installation </h4>
+  <li><a href="https://www.anaconda.com/">download  Anaconda </li></a>
+  <li><a href="https://www.anaconda.com/">python3.9</li></a>
+  <li><a href= "https://www.tensorflow.org/">Tensorflow & keras</li></a>
+  <li><a href= "https://docs.opencv.org/">OpenCV</li></a>
+  <li><a href= "https://anvil.works/">Anvil connection for Deployment</li></a>
+  <li><a href= "https://www.sqlite.org/index.html)/">sqllite3 for DataBase</li></a>
+  
+<p>Welcome to my styled page!
 
+<p>It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere&hellip;
+
+<p>There should be more here, but I don't know
+what yet.
+<Html>
+<Head>
+  <Body BGCOLOR = " Black" Text = "white">
+    <H2># Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT</H2>
+  <h4>Purpose and Objective:</h4>
+  <p>This is informative as well as assistive to diabetic / non-diabetic patients to detect whether they have retinopathy problems or not. This will open up a window to diagnose or start treatment.</p>
+
+<Font color="blue"><h4>Table of Contents:</h4></font>
 Dataset obtaining
 Data Preprocess
 Load images
@@ -41,14 +81,15 @@ Applied data augmentation to the dataset using an image data generator with Kera
 Training the Model:
 After trying different methods to train the classification model, ResNet50 was used for feature extraction applied on the augmented data to train the image classification model. For the natural language processing, I used fasttext to handle any out-of-vocabulary text using the fasttext representation algorithm.
 
-Web Deployment
+Web-Development: 
 The web app is hosted on anvil.works retinopathyBOT. This involves writing some Java Script with Python. Hopefully, the app is still up and running by the time you are reading this readme. This is because of the monthly payment to host the web app on anvil.works
 
-Limitations
+Limitations: 
 The speech recognition API currently works on Firefox and Chrome browser
 Cloud deployment costs money, so the app might not be on for a long time
-Authors
-Omolewa Davids
 
-website
-LinkedIn
+Author: Sarmita Majumdar
+website: https://www.sarmitamajumdar.com
+LinkedIn: https://www.linkedin.com/in/sarmitamajumdar/
+email: sarmita.majumdar@gmail.com
+
