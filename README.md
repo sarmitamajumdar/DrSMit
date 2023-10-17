@@ -29,67 +29,26 @@
   <li><a href= "https://anvil.works/">Anvil connection for Deployment</li></a>
   <li><a href= "https://www.sqlite.org/index.html)/">sqllite3 for DataBase</li></a>
   
-<p>Welcome to my styled page!
+<h4>Loading and Preprocessing</h4>
+<p>This NLP Model has been processed on the local machine and all the Image classification has also been processed on my personal laptop.
+A database has been created to keep track of all the questions that the ChatBot is not trained to answer. The Model has been updated on a regular basis and re-trained the model as usual;</p>
+<h4>Resize All Images</h4>
+<p>As I downloaded from kaggle.com, all the images were in different sizes. I created Height and Width columns for each image and resized the images to the average height and width using openCV before feeding them to the model</p>
+<h4>Class Imbalance</h4>
+<p>For data imbalance, data augmentation to the dataset using an image data generator with Keras, first checked the distribution of data. The frequency are same or not.</p>
+<h4>Training the Model</h4>
+<p>After trying different methods to train the classification model, ResNet50 has been used for feature extraction of the data and applied to the augmented data for training. For the NLP, I also used fasttext to handle any out-of-vocabulary text using fasttext representation algorithm.</p>
+<h4>Web Deployment</h4>
+<p>For The Web App I tried to host it on anvil.works, initially the Dr.SMit Bot.  Initially, the payment option has not been updated monthly basis. So it is a free app hosted there. </p>
+<h4>Limitations & Future thoughts</h4>
+<p>
+<li>To make my App receivable to all the people with their regional languages</li>
+<li>To make my App receivable to all the people with speech recognition facilities</li>
+<h4>Author</h4>
+  <p>Sarmita Majumdar</p>
 
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
-
-<p>There should be more here, but I don't know
-what yet.
-<Html>
-<Head>
-  <Body BGCOLOR = " Black" Text = "white">
-    <H2># Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT</H2>
-  <h4>Purpose and Objective:</h4>
-  <p>This is informative as well as assistive to diabetic / non-diabetic patients to detect whether they have retinopathy problems or not. This will open up a window to diagnose or start treatment.</p>
-
-<Font color="blue"><h4>Table of Contents:</h4></font>
-Dataset obtaining
-Data Preprocess
-Load images
-Resize Images
-Check Class Imbalance
-Model Architecture
-Web Deployment
-Limitation
-
-
-Datasets:
-For Image Classification: Datasets are downloaded from Kaggle 
-For Web Scrapping: Used MedicineNet
-
-Installation 
-Anaconda
-Python 3.9(Above)
-Tensorflow & Keras
-Visualization: matplotlib
-OpenCV for cleaning 
-Anvil for Deploy
-sqllite3 for DataBase
-
-Loading and Preprocessing
-The NLP Model was processed on Google Colab while the Image classification was processed on my personal machine.
-A database was created to keep track of all the questions that the Bot was not trained to answer. The Model is updated every day by retraining the model
-
-Images are Resized
-The images were of different sizes. I created Height and width columns for each image and resized the images to the average height and width using openCV before feeding them to the model
-
-Class Imbalance
-Applied data augmentation to the dataset using an image data generator with Keras, I
-
-Training the Model:
-After trying different methods to train the classification model, ResNet50 was used for feature extraction applied on the augmented data to train the image classification model. For the natural language processing, I used fasttext to handle any out-of-vocabulary text using the fasttext representation algorithm.
-
-Web-Development: 
-The web app is hosted on anvil.works retinopathyBOT. This involves writing some Java Script with Python. Hopefully, the app is still up and running by the time you are reading this readme. This is because of the monthly payment to host the web app on anvil.works
-
-Limitations: 
-The speech recognition API currently works on Firefox and Chrome browser
-Cloud deployment costs money, so the app might not be on for a long time
-
-Author: Sarmita Majumdar
 website: https://www.sarmitamajumdar.com
 LinkedIn: https://www.linkedin.com/in/sarmitamajumdar/
 email: sarmita.majumdar@gmail.com
+
 
