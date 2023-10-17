@@ -47,8 +47,8 @@ A database has been created to keep track of all the questions that the ChatBot 
 <h4>Author</h4>
   <p>Sarmita Majumdar</p>
 
-website: https://www.sarmitamajumdar.com
-LinkedIn: https://www.linkedin.com/in/sarmitamajumdar/
-email: sarmita.majumdar@gmail.com
+<p>website: https://www.sarmitamajumdar.com</p>
+<p>LinkedIn: https://www.linkedin.com/in/sarmitamajumdar/</p>
+<p>email: sarmita.majumdar@gmail.com</p>
 
 
