@@ -8,8 +8,8 @@
 <h4>Purpose and Objective:</h4>
   <p>This is informative as well as assistive to diabetic / non-diabetic patients to detect whether they have retinopathy problems or not. This will open up a window to diagnose or start treatment.</p>
   <p>Problem: Diabetic Retinopathy contributes to 1.7% of blindness and 1.60% (approximately), of moderate to severe visual impairment. Addressing these trends is crucial for improving eye health in our communities. 
-Solution: A chatbot solution designed for both doctors and patients that can significantly enhance healthcare delivery and patient engagement.
-Result: Implementing such a chatbot solution, like “DRSmit”, can improve patient satisfaction, enhance adherence to treatment plans, improve practice management, and ultimately, lead to better patient health outcomes. By fostering a proactive approach to healthcare, patients, and doctors can benefit from a more connected and informed healthcare experience.
+<br>Solution: A chatbot solution designed for both doctors and patients that can significantly enhance healthcare delivery and patient engagement.
+<br>Result: Implementing such a chatbot solution, like “DRSmit”, can improve patient satisfaction, enhance adherence to treatment plans, improve practice management, and ultimately, lead to better patient health outcomes. By fostering a proactive approach to healthcare, patients, and doctors can benefit from a more connected and informed healthcare experience.
 </p>
 <h5>Table of Contents:</h5>
   <li>Dataset obtaining</li>
