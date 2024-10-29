@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-  <H2># Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT</H2>
+  <H2>Diabetic-Retinopathy-Detection-Model-Dr.SMit-BOT</H2>
  
 </head>
 <body>
